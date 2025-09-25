@@ -1,0 +1,18 @@
+repository_type: pipeline
+
+nf_core_version: 3.3.2
+
+lint: {}
+
+template:
+  org: nf-core
+  name: immunopep
+  description: '**immunopeppipeline**: A modular Nextflow DSL2 pipeline for immunopeptidomics,
+    integrating WES, RNA-seq, and non-canonical cryptic peptide workflows for reproducible
+    multi-omics analysis.'
+  author: Sanjay SG Krishna, Chen Li
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  skip_features: []
+  is_nfcore: true
